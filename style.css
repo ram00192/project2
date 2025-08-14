@@ -9,10 +9,22 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 3rem;              /* Large and prominent */
+  text-align: center;           /* Centered on the page */
+  margin-top: 20px;             /* Space from the top */
+  margin-bottom: 10px;          /* Space below the heading */
+  color: #ecebebc9;               /* Vibrant color (customize as needed) */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
 body {
   background-color: var(--primary-color);
   font-family: 'Poppins', sans-serif;
   margin: 0;
+
+
 }
 
 header {
